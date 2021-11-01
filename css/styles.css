@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.logo {
+  color: #2196f3;
+}
+.logo:hover {
+  color: #2196f3;
+}
+.studio {
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+/* Site-nav */
+.site-nav a {
+  color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+.section-title {
+  color: #212121;
+}
+
+/* Цвет основного текста #212121 черный */
+/* Цвет вторичного текста #757575 серый */
+/* #FFFFFF белый*/
+/* акцент #2196F3 голубой*/
+/*rgba(255, 255, 255, 0.6); адрес в футере */
+
+/* Цвет фона в шапке #FFFFFF */
+/* Вторичный цвет фона #E5E5E5  */
+/* Цвет фона в команде #F5F4FA */
+/* Цвет фона мейна и футера #2F303A */ ;

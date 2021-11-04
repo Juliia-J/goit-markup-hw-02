@@ -8,6 +8,7 @@
 /* Вторичный цвет фона #E5E5E5  */
 /* Цвет фона в команде #F5F4FA */
 /* Цвет фона мейна и футера #2F303A */
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -33,8 +34,9 @@ body {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   font-family: Raleway;
+  font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo:hover {
   color: var(--accent-color);
@@ -45,9 +47,6 @@ body {
 
 .list {
   list-style: none;
-}
-button {
-  font-family: inherit;
 }
 
 /* Site-nav */
@@ -68,9 +67,9 @@ button {
   letter-spacing: 0.02em;
 }
 
-.site-nav,
+.site-nav a:hover,
 .cont-nav a:hover,
-.site-nav,
+.site-nav a:focus,
 .cont-nav a:focus {
   color: var(--accent-color);
 }
@@ -95,6 +94,7 @@ button {
 
 .hero-button {
   color: var(--text-white);
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -146,9 +146,41 @@ button {
   line-height: 1.9;
   text-align: center;
 }
-address {
+
+/* Наши работы */
+
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--text-white);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  background: var(--accent-color);
+}
+
+/* Подвал */
+
+.footer {
+  font-family: inherit;
+  font-style: normal;
   color: var(--text-white);
   font-size: 14px;
   line-height: 1.71;
+
   background-color: var(--footer-bkg-color);
+}
+.footer-link a {
+  font-family: inherit;
+  color: var(--text-footer-color);
+  font-size: 14px;
+  line-height: 1.71;
+
+  background-color: var(--footer-bkg-color);
+}
+.footer-link a:hover,
+.footer-link a:focus {
+  color: var(--accent-color);
 }
